@@ -36,7 +36,7 @@ public class CardPagerAdapter extends PagerAdapter implements CardAdapter{
 
     @Override
     public float getPageWidth(int position) {
-        return 0.9f;
+        return super.getPageWidth(position);
     }
 
     @Override
